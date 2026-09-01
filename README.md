@@ -96,24 +96,21 @@ A production-oriented payment backend focused on **idempotent transaction proces
 ## 💻 Coding & GitHub
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=Armaan1804&show_icons=true&theme=tokyonight&hide_border=true"
-    alt="GitHub Stats"
-    width="48%"
-  />
-  <img
-    src="https://streak-stats.demolab.com/?user=Armaan1804&theme=tokyonight&hide_border=true"
-    alt="GitHub Streak"
-    width="48%"
-  />
+  <a href="https://github.com/Armaan1804">
+    <img
+      src="https://streak-stats.demolab.com/?user=Armaan1804&theme=tokyonight&hide_border=true"
+      alt="GitHub Streak"
+    />
+  </a>
 </p>
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Armaan1804&layout=compact&theme=tokyonight&hide_border=true"
-    alt="Top Languages"
-    width="48%"
-  />
+  <a href="https://github.com/Armaan1804">
+    <img
+      src="https://github-readme-activity-graph.vercel.app/graph?username=Armaan1804&theme=tokyo-night&hide_border=true"
+      alt="GitHub Activity Graph"
+    />
+  </a>
 </p>
 
 ## 🎯 Current Focus
