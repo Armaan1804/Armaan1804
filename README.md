@@ -60,42 +60,36 @@
 
 ## 🚀 Featured Projects
 
-### 🔗 Distributed URL Shortener
+### ⚡ Event-Driven Task Processing System
 
-A scalable URL-shortening backend designed around high-performance redirects and click analytics.
+**Java • Spring Boot • Apache Kafka • PostgreSQL**
 
-**Tech:** `Java` `Spring Boot` `MySQL` `Redis`
+An event-driven backend system designed for reliable asynchronous task processing and fault-tolerant event delivery.
 
-* RESTful API architecture
-* Fast URL redirects using Redis caching
-* Persistent URL and analytics storage
-* Designed with scalability and high traffic in mind
+* Built separate **Producer and Consumer microservices** using Spring Boot and Apache Kafka.
+* Implemented the **Transactional Outbox Pattern** to maintain consistency between PostgreSQL transactions and Kafka event publishing.
+* Developed a scheduled **Outbox Publisher** with configurable retry logic for transient failures.
+* Designed a complete **Dead Letter Queue (DLQ)** workflow with a dedicated consumer for permanently failed events.
+* Focused on **reliability, fault tolerance, asynchronous processing, and eventual consistency**.
 
----
-
-### ⚖️ Online Judge System
-
-A backend system for securely executing submitted code and evaluating it against predefined test cases.
-
-**Tech:** `Java` `Spring Boot` `Docker` `RabbitMQ` `PostgreSQL`
-
-* Isolated code execution using Docker
-* Asynchronous job processing with queues/workers
-* Automated test-case evaluation
-* Backend architecture designed for concurrent submissions
+**Key Concepts:** `Event-Driven Architecture` `Kafka` `Transactional Outbox` `Retry Mechanisms` `DLQ` `Microservices`
 
 ---
 
-### ✅ Task Manager
+### 💳 Idempay
 
-A full-stack task management platform with authentication, authorization, and persistent data storage.
+**Java • Spring Boot • PostgreSQL • Redis • REST APIs**
 
-**Tech:** `Java` `Spring Boot` `PostgreSQL`
+A production-oriented payment backend focused on **idempotent transaction processing, reliability, and safe payment workflows**.
 
-* RESTful backend APIs
-* Authentication and authorization
-* PostgreSQL database integration
-* Structured backend architecture
+* Designed RESTful APIs for payment processing and transaction management.
+* Implemented **idempotency** to prevent duplicate payment processing during retries and repeated client requests.
+* Built persistent transaction handling using PostgreSQL.
+* Designed backend workflows with a focus on **consistency, failure handling, and reliable API behavior**.
+* Applied backend engineering principles relevant to real-world **payment and financial systems**.
+
+**Key Concepts:** `Payment Processing` `Idempotency` `REST APIs` `PostgreSQL` `Reliability` `Failure Handling`
+
 
 ---
 
